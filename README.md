@@ -1,7 +1,9 @@
 # Efficient Agent Workflow — RulePack
 
+This tool makes sure an agent batches its work: every known file write goes out in one message, independent tool calls and commands go out together, and long-running jobs are watched without wasting extra turns. It ships those rules as 15 named, independently selectable blocks, delivered either as AGENTS.md instructions (recommended) or as a skill, through a questionnaire that launches minimized and never steals your focus.
+
 ## Summary
-SHIPPABLE - 15 named, independently selectable rules and a questionnaire installer that launches in a minimized window. GitHub push is still a manual user decision.
+PUBLISHED - 15 named, independently selectable rules and a questionnaire installer that launches in a minimized window. GitHub release `1.0.0` is live.
 
 ## What is inside
 
