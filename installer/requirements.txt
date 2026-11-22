@@ -1,0 +1,2 @@
+# Tested with textual 8.2.8 (pulls rich>=14.2 automatically)
+textual>=0.80
